@@ -1,7 +1,7 @@
 package flashdb
 
 import (
-	"github.com/AndrewDonelson/aol"
+	"github.com/arriqaaq/aol"
 )
 
 // Tx represents a transaction on the database. This transaction can either be

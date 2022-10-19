@@ -28,11 +28,11 @@ FlashDB is made of composable libraries that can be used independently and are e
 learning for anyone new on how to build a simple ACID database.
 
 
-- [Set](https://github.com/AndrewDonelson/set)
-- [ZSet](https://github.com/AndrewDonelson/zset)
-- [String](https://github.com/AndrewDonelson/art)
-- [Hash](https://github.com/AndrewDonelson/hash)
-- [Append Only Log](https://github.com/AndrewDonelson/aol)
+- [Set](https://github.com/arriqaaq/set)
+- [ZSet](https://github.com/arriqaaq/zset)
+- [String](https://github.com/arriqaaq/art)
+- [Hash](https://github.com/arriqaaq/hash)
+- [Append Only Log](https://github.com/arriqaaq/aol)
 
 
 Getting Started

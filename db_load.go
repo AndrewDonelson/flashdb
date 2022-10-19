@@ -3,7 +3,7 @@ package flashdb
 import (
 	"time"
 
-	"github.com/AndrewDonelson/aol"
+	"github.com/arriqaaq/aol"
 )
 
 // load String, Hash, Set and ZSet stores from append-only log

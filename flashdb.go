@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/AndrewDonelson/aol"
-	"github.com/AndrewDonelson/hash"
+	"github.com/arriqaaq/aol"
+	"github.com/arriqaaq/hash"
 )
 
 var (

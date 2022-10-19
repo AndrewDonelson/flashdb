@@ -1,13 +1,13 @@
-module github.com/arriqaaq/flashdb
+module github.com/AndrewDonelson/flashdb
 
-go 1.17
+go 1.19
 
 require (
-	github.com/arriqaaq/aol v0.1.2
-	github.com/arriqaaq/art v0.1.2
-	github.com/arriqaaq/hash v0.1.2
-	github.com/arriqaaq/set v0.1.2
-	github.com/arriqaaq/zset v0.1.2
+	github.com/AndrewDonelson/aol v0.1.2
+	github.com/AndrewDonelson/art v0.1.2
+	github.com/AndrewDonelson/hash v0.1.2
+	github.com/AndrewDonelson/set v0.1.2
+	github.com/AndrewDonelson/zset v0.1.2
 	github.com/gomodule/redigo v1.8.8
 	github.com/pelletier/go-toml v1.9.4
 	github.com/peterh/liner v1.2.2

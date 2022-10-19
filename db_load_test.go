@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/arriqaaq/aol"
+	"github.com/AndrewDonelson/aol"
 	"github.com/stretchr/testify/assert"
 )
 

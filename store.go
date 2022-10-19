@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arriqaaq/art"
-	"github.com/arriqaaq/hash"
-	"github.com/arriqaaq/set"
-	"github.com/arriqaaq/zset"
+	"github.com/AndrewDonelson/art"
+	"github.com/AndrewDonelson/hash"
+	"github.com/AndrewDonelson/set"
+	"github.com/AndrewDonelson/zset"
 )
 
 var (

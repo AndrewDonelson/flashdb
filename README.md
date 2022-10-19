@@ -28,11 +28,11 @@ FlashDB is made of composable libraries that can be used independently and are e
 learning for anyone new on how to build a simple ACID database.
 
 
-- [Set](https://github.com/arriqaaq/set)
-- [ZSet](https://github.com/arriqaaq/zset)
-- [String](https://github.com/arriqaaq/art)
-- [Hash](https://github.com/arriqaaq/hash)
-- [Append Only Log](https://github.com/arriqaaq/aol)
+- [Set](https://github.com/AndrewDonelson/set)
+- [ZSet](https://github.com/AndrewDonelson/zset)
+- [String](https://github.com/AndrewDonelson/art)
+- [Hash](https://github.com/AndrewDonelson/hash)
+- [Append Only Log](https://github.com/AndrewDonelson/aol)
 
 
 Getting Started
@@ -43,7 +43,7 @@ Getting Started
 To start using FlashDB, install Go and run `go get`:
 
 ```sh
-$ go get -u github.com/arriqaaq/flashdb
+$ go get -u github.com/AndrewDonelson/flashdb
 ```
 
 This will retrieve the library.
@@ -60,7 +60,7 @@ package main
 import (
 	"log"
 
-	"github.com/arriqaaq/flashdb"
+	"github.com/AndrewDonelson/flashdb"
 )
 
 func main() {
@@ -163,7 +163,7 @@ Benchmarks
 badger 2022/03/09 14:04:44 INFO: All 0 tables opened in 0s
 goos: darwin
 goarch: amd64
-pkg: github.com/arriqaaq/flashbench
+pkg: github.com/AndrewDonelson/flashbench
 cpu: Intel(R) Core(TM) i9-9980HK CPU @ 2.40GHz
 
 BenchmarkBadgerDBPutValue64B-16     	    9940	    141844 ns/op	    2208 B/op	      68 allocs/op
@@ -179,7 +179,7 @@ BenchmarkFlashDBPutValue512B-16    	  165580	      8110 ns/op	    5866 B/op	    
 BenchmarkFlashDBGet-16             	 4053836	       295 ns/op	      32 B/op	       2 allocs/op
 
 PASS
-ok  	github.com/arriqaaq/flashbench	28.947s
+ok  	github.com/AndrewDonelson/flashbench	28.947s
 ```
 
 #### With fsync enabled for every update transaction
@@ -188,7 +188,7 @@ ok  	github.com/arriqaaq/flashbench	28.947s
 badger 2022/03/09 14:04:44 INFO: All 0 tables opened in 0s
 goos: darwin
 goarch: amd64
-pkg: github.com/arriqaaq/flashbench
+pkg: github.com/AndrewDonelson/flashbench
 cpu: Intel(R) Core(TM) i9-9980HK CPU @ 2.40GHz
 
 BenchmarkNutsDBPutValue64B-16     	      52	  20301019 ns/op	    1315 B/op	      17 allocs/op
@@ -203,10 +203,10 @@ BenchmarkFlashDBPutValue512B-16    	      61	  18811900 ns/op	    2976 B/op	    
 BenchmarkFlashDBGet-16			    3599500	     340.7 ns/op	      32 B/op	       2 allocs/op
 
 PASS
-ok  	github.com/arriqaaq/flashbench	28.947s
+ok  	github.com/AndrewDonelson/flashbench	28.947s
 ```
 
-The benchmark code can be found here [flashdb-bench](https://github.com/arriqaaq/flashdb-bench).
+The benchmark code can be found here [flashdb-bench](https://github.com/AndrewDonelson/flashdb-bench).
 
 
 

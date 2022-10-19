@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/arriqaaq/hash"
+	"github.com/AndrewDonelson/hash"
 )
 
 const (

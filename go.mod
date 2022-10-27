@@ -8,7 +8,7 @@ require (
 	github.com/arriqaaq/hash v0.1.2
 	github.com/arriqaaq/set v0.1.2
 	github.com/arriqaaq/zset v0.1.2
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.8.1
 )
 
 require (
